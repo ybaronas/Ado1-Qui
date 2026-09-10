@@ -1,0 +1,9 @@
+Tema: Gestão de Medicamentos
+
+O sistema é voltado para o gerenciamento de medicamentos e seus usos por usuarios. A classe Medicamneto armazena informações como nome, principio ativo, fabricante e tipo. 
+Cada medicamento pode possuir diferentes lotes, que controlam a quantidade inicial e atual, data de entrada e validade. 
+O Usuario representa a pessoa que utiliza o sistema, com seus dados cadastrais e faixa etária.
+
+A partir disso, o sistema permite criar prescrições para os usuarios, associando medicamentos, doses, quantidades por dose, frequência e período de tratamento. 
+Cada prescrição pode gerar varias doses, que registram o medicamento, o usuario, o horário previsto e um status para indicar, por exemplo, se aquela dose já foi administrada. 
+Assim, o sistema consegue relacionar usuario, prescrição, doses e medicamentos, enquanto os lotes permitem controlar o estoque e a validade dos medicamnetos.
